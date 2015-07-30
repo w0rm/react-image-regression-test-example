@@ -6,7 +6,7 @@
   "scripts": {
     "start": "beefy page.js --index page.html -- -p [css-modulesify -o dist/style.css]",
     "gather": "gemini gather ./test.js",
-    "test": "gemini test ./test.js"
+    "test": "node ./gemini"
   },
   "author": "Andrey Kuzmin",
   "license": "MIT",
