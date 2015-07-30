@@ -1,5 +1,15 @@
 var gemini = require('gemini');
 
+
+if (process.env.TRAVIS_JOB_NUMBER) {
+    console.log('Setting tunnel identifier');
+    gemini.on('startRunner', function () {
+        gemini.config.browsers.forEach(function(browser) {
+            browser['tunnel-identifier'] = process.env.TRAVIS_JOB_NUMBER;
+        });
+    });
+}
+
 gemini.suite('grid', function () {
 
     ['default'].forEach(function (fixture) {
