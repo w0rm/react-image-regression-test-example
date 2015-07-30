@@ -4,7 +4,6 @@ node_js:
 sudo: false
 addons:
   sauce_connect: true
-addons:
   apt:
     packages:
     - graphicsmagick

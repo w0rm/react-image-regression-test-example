@@ -1,11 +1,6 @@
 rootUrl: http://127.0.0.1:9966
 gridUrl: http://ondemand.saucelabs.com/wd/hub
 
-plugins:
-  sauce:
-    username:
-    accessKey:
-
 browsers:
   chrome:
     browserName: chrome
