@@ -1,0 +1,23 @@
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .phone-wrap {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .tablet-wrap {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .desktop-wrap {
+        flex-wrap: wrap;
+    }
+}

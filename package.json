@@ -1,0 +1,24 @@
+{
+  "name": "react-grid-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "beefy page.js --index page.html -- -p [css-modulesify -o dist/style.css]",
+    "gather": "gemini gather ./test.js",
+    "test": "gemini test ./test.js"
+  },
+  "author": "Andrey Kuzmin",
+  "license": "MIT",
+  "devDependencies": {
+    "beefy": "^2.1.5",
+    "browserify": "^11.0.0",
+    "css-modulesify": "^0.3.3",
+    "gemini": "^0.12.8",
+    "gemini-sauce": "^0.9.1",
+    "watchify": "^3.3.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}

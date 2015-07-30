@@ -1,0 +1,230 @@
+
+.item {
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 480px) {
+    .phone-span-1 {
+        width: 8.333333333333332%;
+    }
+    .phone-span-2 {
+        width: 16.666666666666664%;
+    }
+    .phone-span-3 {
+        width: 25%;
+    }
+    .phone-span-4 {
+        width: 33.33333333333333%;
+    }
+    .phone-span-5 {
+        width: 41.66666666666667%;
+    }
+    .phone-span-6 {
+        width: 50%;
+    }
+    .phone-span-7 {
+        width: 58.333333333333336%;
+    }
+    .phone-span-8 {
+        width: 66.66666666666666%;
+    }
+    .phone-span-9 {
+        width: 75%;
+    }
+    .phone-span-10 {
+        width: 83.33333333333334%;
+    }
+    .phone-span-11 {
+        width: 91.66666666666666%;
+    }
+    .phone-span-12 {
+        width: 100%;
+    }
+    .phone-order-1 {
+        order: 1;
+    }
+    .phone-order-2 {
+        order: 2;
+    }
+    .phone-order-3 {
+        order: 3;
+    }
+    .phone-order-4 {
+        order: 4;
+    }
+    .phone-order-5 {
+        order: 5;
+    }
+    .phone-order-6 {
+        order: 6;
+    }
+    .phone-order-7 {
+        order: 7;
+    }
+    .phone-order-8 {
+        order: 8;
+    }
+    .phone-order-9 {
+        order: 9;
+    }
+    .phone-order-10 {
+        order: 10;
+    }
+    .phone-order-11 {
+        order: 11;
+    }
+    .phone-order-12 {
+        order: 12;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .tablet-span-1 {
+        width: 8.333333333333332%;
+    }
+    .tablet-span-2 {
+        width: 16.666666666666664%;
+    }
+    .tablet-span-3 {
+        width: 25%;
+    }
+    .tablet-span-4 {
+        width: 33.33333333333333%;
+    }
+    .tablet-span-5 {
+        width: 41.66666666666667%;
+    }
+    .tablet-span-6 {
+        width: 50%;
+    }
+    .tablet-span-7 {
+        width: 58.333333333333336%;
+    }
+    .tablet-span-8 {
+        width: 66.66666666666666%;
+    }
+    .tablet-span-9 {
+        width: 75%;
+    }
+    .tablet-span-10 {
+        width: 83.33333333333334%;
+    }
+    .tablet-span-11 {
+        width: 91.66666666666666%;
+    }
+    .tablet-span-12 {
+        width: 100%;
+    }
+    .tablet-order-1 {
+        order: 1;
+    }
+    .tablet-order-2 {
+        order: 2;
+    }
+    .tablet-order-3 {
+        order: 3;
+    }
+    .tablet-order-4 {
+        order: 4;
+    }
+    .tablet-order-5 {
+        order: 5;
+    }
+    .tablet-order-6 {
+        order: 6;
+    }
+    .tablet-order-7 {
+        order: 7;
+    }
+    .tablet-order-8 {
+        order: 8;
+    }
+    .tablet-order-9 {
+        order: 9;
+    }
+    .tablet-order-10 {
+        order: 10;
+    }
+    .tablet-order-11 {
+        order: 11;
+    }
+    .tablet-order-12 {
+        order: 12;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .desktop-span-1 {
+        width: 8.333333333333332%;
+    }
+    .desktop-span-2 {
+        width: 16.666666666666664%;
+    }
+    .desktop-span-3 {
+        width: 25%;
+    }
+    .desktop-span-4 {
+        width: 33.33333333333333%;
+    }
+    .desktop-span-5 {
+        width: 41.66666666666667%;
+    }
+    .desktop-span-6 {
+        width: 50%;
+    }
+    .desktop-span-7 {
+        width: 58.333333333333336%;
+    }
+    .desktop-span-8 {
+        width: 66.66666666666666%;
+    }
+    .desktop-span-9 {
+        width: 75%;
+    }
+    .desktop-span-10 {
+        width: 83.33333333333334%;
+    }
+    .desktop-span-11 {
+        width: 91.66666666666666%;
+    }
+    .desktop-span-12 {
+        width: 100%;
+    }
+    .desktop-order-1 {
+        order: 1;
+    }
+    .desktop-order-2 {
+        order: 2;
+    }
+    .desktop-order-3 {
+        order: 3;
+    }
+    .desktop-order-4 {
+        order: 4;
+    }
+    .desktop-order-5 {
+        order: 5;
+    }
+    .desktop-order-6 {
+        order: 6;
+    }
+    .desktop-order-7 {
+        order: 7;
+    }
+    .desktop-order-8 {
+        order: 8;
+    }
+    .desktop-order-9 {
+        order: 9;
+    }
+    .desktop-order-10 {
+        order: 10;
+    }
+    .desktop-order-11 {
+        order: 11;
+    }
+    .desktop-order-12 {
+        order: 12;
+    }
+}
