@@ -1,6 +1,19 @@
 rootUrl: http://127.0.0.1:9966
 gridUrl: http://ondemand.saucelabs.com/wd/hub
 
+plugins:
+  sauce:
+    username:
+    accessKey:
+  beefy:
+    quiet: false
+    entries:
+      - page.js
+    live: false
+    watchify: false
+    index: page.html
+    bundlerFlags: '-p [css-modulesify -o dist/style.css]'
+
 browsers:
   chrome:
     browserName: chrome
