@@ -6,7 +6,7 @@ plugins:
     username:
     accessKey:
   beefy:
-    quiet: false
+    quiet: true
     entries:
       - page.js
     live: false
