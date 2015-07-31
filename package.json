@@ -6,15 +6,16 @@
   "scripts": {
     "build": "browserify index.js -o dist/index.js -p [css-modulesify -o dist/style.css]",
     "start": "beefy page.js --index page.html -- -p [css-modulesify -o dist/style.css]",
-    "gather": "npm run build && gemini gather",
-    "test": "npm run build && gemini test",
-    "gui": "npm run build && gemini-gui"
+    "prepublish": "npm run build",
+    "gather": "gemini gather",
+    "test": "gemini test",
+    "gui": "gemini-gui"
   },
   "author": "Andrey Kuzmin",
   "license": "MIT",
   "devDependencies": {
     "beefy": "^2.1.5",
-    "browserify": "^11.0.0",
+    "browserify": "^11.0.1",
     "css-modulesify": "^0.3.3",
     "gemini": "^0.12.8",
     "gemini-beefy": "^1.0.0",

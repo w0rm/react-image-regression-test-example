@@ -1,3 +1,4 @@
-dist
+dist/index.js
+dist/style.css
 node_modules
 .DS_Store
