@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "browserify index.js -o dist/index.js -p [css-modulesify -o dist/style.css]",
     "start": "beefy page.js --index page.html -- -p [css-modulesify -o dist/style.css]",
-    "gather": "gemini gather",
-    "test": "gemini test",
-    "gui": "gemini-gui"
+    "gather": "npm run build && gemini gather",
+    "test": "npm run build && gemini test",
+    "gui": "npm run build && gemini-gui"
   },
   "author": "Andrey Kuzmin",
   "license": "MIT",
