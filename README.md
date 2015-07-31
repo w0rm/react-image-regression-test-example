@@ -12,3 +12,10 @@ Gemini is used for the image regression tests.
     <Item span={{phone: 12, tablet: 6, desktop: 3}}>Content</Item>
 </Container>
 ```
+
+# Commands
+
+`npm start` runs dev server
+`npm test` runs gemini tests on sauce labs
+`npm run gather` gathers gemini reference images
+`npm run gui` starts gemini gui
