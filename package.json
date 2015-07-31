@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "beefy page.js --index page.html -- -p [css-modulesify -o dist/style.css]",
-    "gather": "gemini gather ./test.js",
-    "test": "gemini test ./test.js"
+    "gather": "gemini gather",
+    "test": "gemini test",
+    "gui": "gemini-gui"
   },
   "author": "Andrey Kuzmin",
   "license": "MIT",
@@ -16,6 +17,7 @@
     "css-modulesify": "^0.3.3",
     "gemini": "^0.12.8",
     "gemini-beefy": "^1.0.0",
+    "gemini-gui": "^0.2.3",
     "gemini-sauce": "^0.9.1",
     "watchify": "^3.3.0"
   },
