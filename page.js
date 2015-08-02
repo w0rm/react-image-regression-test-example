@@ -1,7 +1,8 @@
 var React = require('react');
 var grid = require('./index');
 var FIXTURES = {
-    default: require('./fixtures/default')
+    default: require('./fixtures/default'),
+    order: require('./fixtures/order')
 };
 
 var Fixture = React.createClass({
@@ -11,8 +12,8 @@ var Fixture = React.createClass({
     },
 
     getInitialState: function () {
-        var hash = window.location.hash.split('#')[0];
-        return FIXTURES[hash] || FIXTURES.default;
+        var hash = window.location.hash;
+        return hash && FIXTURES[hash.substring(1)] || FIXTURES.default;
     },
 
     componentDidMount: function () {

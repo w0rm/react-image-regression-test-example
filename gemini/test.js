@@ -2,7 +2,7 @@ var gemini = require('gemini');
 
 gemini.suite('grid', function () {
 
-    ['default'].forEach(function (fixture) {
+    ['default', 'order'].forEach(function (fixture) {
 
         gemini.suite(fixture, function (suite) {
             suite.setUrl('#' + fixture)
@@ -13,7 +13,7 @@ gemini.suite('grid', function () {
                 .capture('tablet', function (actions) {
                     actions.setWindowSize(700, 800);
                 })
-                .capture('mobile', function (actions) {
+                .capture('phone', function (actions) {
                     actions.setWindowSize(480, 800);
                 });
         });

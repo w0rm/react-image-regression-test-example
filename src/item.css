@@ -4,6 +4,80 @@
     vertical-align: top;
 }
 
+.span-1 {
+    width: 8.333333333333332%;
+}
+.span-2 {
+    width: 16.666666666666664%;
+}
+.span-3 {
+    width: 25%;
+}
+.span-4 {
+    width: 33.33333333333333%;
+}
+.span-5 {
+    width: 41.66666666666667%;
+}
+.span-6 {
+    width: 50%;
+}
+.span-7 {
+    width: 58.333333333333336%;
+}
+.span-8 {
+    width: 66.66666666666666%;
+}
+.span-9 {
+    width: 75%;
+}
+.span-10 {
+    width: 83.33333333333334%;
+}
+.span-11 {
+    width: 91.66666666666666%;
+}
+.span-12 {
+    width: 100%;
+}
+.order-1 {
+    order: 1;
+}
+.order-2 {
+    order: 2;
+}
+.order-3 {
+    order: 3;
+}
+.order-4 {
+    order: 4;
+}
+.order-5 {
+    order: 5;
+}
+.order-6 {
+    order: 6;
+}
+.order-7 {
+    order: 7;
+}
+.order-8 {
+    order: 8;
+}
+.order-9 {
+    order: 9;
+}
+.order-10 {
+    order: 10;
+}
+.order-11 {
+    order: 11;
+}
+.order-12 {
+    order: 12;
+}
+
+
 @media screen and (max-width: 480px) {
     .phone-span-1 {
         width: 8.333333333333332%;

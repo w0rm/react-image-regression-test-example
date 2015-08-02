@@ -4,6 +4,10 @@
     width: 100%;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 @media screen and (max-width: 480px) {
     .phone-wrap {
         flex-wrap: wrap;

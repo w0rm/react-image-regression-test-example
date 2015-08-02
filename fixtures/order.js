@@ -1,14 +1,12 @@
 module.exports = {
-    props: {
-        wrap: true
-    },
     items: [
         {
             props: {
-                span: {
-                    phone: 12,
-                    tablet: 6,
-                    desktop: 3
+                span: 3,
+                order: {
+                    phone: 4,
+                    tablet: 2,
+                    desktop: 1
                 }
             },
             placeholder: {
@@ -17,15 +15,16 @@ module.exports = {
                     background: 'red',
                     color: 'white'
                 },
-                children: '#1'
+                children: '#1 desktop, #2 tablet, #4 phone'
             }
         },
         {
             props: {
-                span: {
-                    phone: 12,
-                    tablet: 6,
-                    desktop: 3
+                span: 3,
+                order: {
+                    phone: 3,
+                    tablet: 4,
+                    desktop: 2
                 }
             },
             placeholder: {
@@ -34,14 +33,15 @@ module.exports = {
                     background: 'blue',
                     color: 'white'
                 },
-                children: '#2'
+                children: '#2 desktop, #4 tablet, #3 phone'
             }
         },
         {
             props: {
-                span: {
-                    phone: 12,
-                    tablet: 6,
+                span: 3,
+                order: {
+                    phone: 2,
+                    tablet: 1,
                     desktop: 3
                 }
             },
@@ -51,15 +51,16 @@ module.exports = {
                     background: 'green',
                     color: 'white'
                 },
-                children: '#3'
+                children: '#3 desktop, #1 tablet, #2 phone'
             }
         },
         {
             props: {
-                span: {
-                    phone: 12,
-                    tablet: 6,
-                    desktop: 3
+                span: 3,
+                order: {
+                    phone: 1,
+                    tablet: 3,
+                    desktop: 4
                 }
             },
             placeholder: {
@@ -68,7 +69,7 @@ module.exports = {
                     background: 'purple',
                     color: 'white'
                 },
-                children: '#4'
+                children: '#4 desktop, #3 tablet, #1 phone'
             }
         }
     ]

@@ -13,7 +13,6 @@ module.exports = React.createClass({
 
     getDefaultProps: function () {
         return {
-            span: { phone: 12, tablet: 12, desktop: 12 }
         };
     },
 
