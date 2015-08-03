@@ -3,8 +3,6 @@ var grid = require('./index');
 var bulk = require('bulk-require');
 var FIXTURES = bulk(__dirname + '/fixtures', '*.js');
 
-console.log(FIXTURES)
-
 var Fixture = React.createClass({
 
     getAttributes: function () {

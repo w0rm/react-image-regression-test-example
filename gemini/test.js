@@ -4,9 +4,14 @@ var FIXTURES = bulk(__dirname + '/../fixtures', '*.js');
 
 gemini.suite('grid', function () {
 
-    Object.keys(FIXTURES).forEach(function (fixture) {
+    for (var fixture in FIXTURES) {
 
         gemini.suite(fixture, function (suite) {
+
+            if (FIXTURES[fixture].skip) {
+                suite.skip(FIXTURES[fixture].skip);
+            }
+
             suite.setUrl('#' + fixture)
                 .setCaptureElements('#fixture')
                 .capture('desktop', function (actions) {
@@ -20,6 +25,6 @@ gemini.suite('grid', function () {
                 });
         });
 
-    });
+    };
 
 });

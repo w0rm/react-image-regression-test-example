@@ -1,4 +1,8 @@
 module.exports = {
+    skip: {
+        browserName: 'internet explorer',
+        version: '9.0'
+    },
     items: [
         {
             props: {

@@ -18,12 +18,16 @@ browsers:
   chrome:
     browserName: chrome
     platform: OS X 10.10
-    version: 43.0
+    version: '43.0'
   firefox:
     browserName: firefox
     platform: Linux
-    version: 39.0
+    version: '39.0'
   ie11:
     browserName: internet explorer
     platform: Windows 10
-    version: 11.0
+    version: '11.0'
+  ie9:
+    browserName: internet explorer
+    platform: Windows 7
+    version: '9.0'
