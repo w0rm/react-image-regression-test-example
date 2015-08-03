@@ -1,9 +1,9 @@
 var React = require('react');
 var grid = require('./index');
-var FIXTURES = {
-    default: require('./fixtures/default'),
-    order: require('./fixtures/order')
-};
+var bulk = require('bulk-require');
+var FIXTURES = bulk(__dirname + '/fixtures', '*.js');
+
+console.log(FIXTURES)
 
 var Fixture = React.createClass({
 

@@ -2,10 +2,6 @@ language: node_js
 node_js:
   - '0.12'
 sudo: false
-addons:
-  apt:
-    packages:
-    - graphicsmagick
 env:
   global:
     - secure: Q+Z4VrgHAmkq1eClg9oICv7Z7HJ2w7wIlx0xBa0asXcWMP5zRMcqC0nWtibiTo+cs5pybkQKD08G8Yh+OA17t0tJGr4d7RDauUblVR9aAbaBQWs8PedtBzHnc8zSS9uQaJRTNAOS1B6iPL6wKxFKCmw+M2YPI/GJYDMjb3okTnSVLCTuvv5f9SS63IB39pMIkoO1XoS0d4UdTmPsy74+RnbX9iXE9emM5iBKfR17dpp7pi07LcOxH7E0KjDLIWCepfqTzokecnx3g8Gp9rhbCFGxXXPvpfdUGd/iarU9kKi25kaDUDF0ki+VgZGPbb3KxQ/932Qa4Vl+Mb0zZQHISX6RifwMPhm+Q2LB7ul3qMcIrguH/REuMLNGwn7nd0StZVCkLfIuVWR4ewz4YZL6zRgUdNXHnzb6aFGJYcJR8xeSOUT0sCFwFAU3V3LAbbTHK6e8OYZJDIt846xrqU6OdYGb4u6I0qPO/1w/O0bJ2gyBDYZGkc9aHkoBvELhFrvH6y3F+eGWu+2NIoslKFPyHlcXS3Y4W74c36SxCkgEATopVQzxjW3Z2H5GNTZbzPRSRohfs5j27mmQ3da7Fl6VWVq1haKrL48Tm87otsagaBk35eP4lKMTt+fTdnGoLTVqaRXXsRDAZLaaiPSQoUyv7EkIyHUbARun98JQEfhiB/w=

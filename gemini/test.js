@@ -1,8 +1,10 @@
 var gemini = require('gemini');
+var bulk = require('bulk-require');
+var FIXTURES = bulk(__dirname + '/../fixtures', '*.js');
 
 gemini.suite('grid', function () {
 
-    ['default', 'order'].forEach(function (fixture) {
+    Object.keys(FIXTURES).forEach(function (fixture) {
 
         gemini.suite(fixture, function (suite) {
             suite.setUrl('#' + fixture)

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "browserify index.js -o dist/index.js -p [css-modulesify -o dist/style.css]",
-    "start": "beefy page.js --open --index page.html -- -p [css-modulesify -o dist/style.css]",
+    "start": "beefy page.js --open --index page.html -- -t bulkify -p [css-modulesify -o dist/style.css]",
     "prepublish": "npm run build",
     "gather": "gemini gather",
     "test": "gemini test",
@@ -16,6 +16,8 @@
   "devDependencies": {
     "beefy": "^2.1.5",
     "browserify": "^11.0.1",
+    "bulk-require": "^0.2.1",
+    "bulkify": "^1.1.1",
     "css-modulesify": "^0.3.3",
     "gemini": "^0.12.8",
     "gemini-beefy": "^1.0.1",

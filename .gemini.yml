@@ -12,7 +12,7 @@ plugins:
     live: false
     watchify: false
     index: page.html
-    bundlerFlags: '-p [css-modulesify -o dist/style.css]'
+    bundlerFlags: '-t bulkify -p [css-modulesify -o dist/style.css]'
 
 browsers:
   chrome:
